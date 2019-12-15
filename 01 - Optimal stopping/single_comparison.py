@@ -85,4 +85,5 @@ if __name__ == '__main__':
 
         #Select the best one using the 37% rule
         best_37 = opt_stop_37(candidates)
-        print(f'The best one selected by the 37% rule is {best_37}')
+        print(f'The one selected by the 37% rule was {best_37}')
+        print(f'The best in the whole group was {max(candidates)}')
